@@ -1,0 +1,25 @@
+server:
+  port: 1006
+
+#文件存储路径
+prop:
+  upload-folder: src\main\resources\static\
+
+spring:
+  datasource:
+    username: nonameless
+    url: jdbc:mysql://112.74.79.124:3306/WebAttack?characterEncoding=utf8&useSSL=false&useAffectedRows=true
+    password: nonameless
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  configuration:
+#   下划线自动转为驼峰命名法
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com.cs.demo.mapper: debug
+
