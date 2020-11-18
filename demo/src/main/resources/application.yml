@@ -8,8 +8,8 @@ prop:
 spring:
   datasource:
     username: nonameless
-    url: jdbc:mysql://112.74.79.124:3306/WebAttack?characterEncoding=utf8&useSSL=false&useAffectedRows=true
-    password: nonameless
+    url: jdbc:mysql://***********:3306/WebAttack?characterEncoding=utf8&useSSL=false&useAffectedRows=true
+    password: ************
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
 
